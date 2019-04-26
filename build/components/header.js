@@ -5,7 +5,7 @@ var React = require("react");
 var Header = function (_a) {
     var siteTitle = _a.siteTitle;
     return (React.createElement("header", { style: {
-            background: "rebeccapurple",
+            background: "#212121",
             marginBottom: "1.45rem",
         } },
         React.createElement("div", { style: {

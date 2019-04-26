@@ -18,12 +18,7 @@ var Layout = function (_a) {
                     padding: "0px 1.0875rem 1.45rem",
                     paddingTop: 0,
                 } },
-                React.createElement("main", null, children),
-                React.createElement("footer", null,
-                    "\u00A9 ",
-                    new Date().getFullYear(),
-                    ", Built with", " ",
-                    React.createElement("a", { href: "https://www.gatsbyjs.org" }, "Gatsby"))))); } }));
+                React.createElement("main", null, children)))); } }));
 };
 exports.default = Layout;
 var templateObject_1;

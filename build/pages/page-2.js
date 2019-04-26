@@ -18,12 +18,12 @@ function HelloBlue() {
 }
 var layout_1 = require("../components/layout");
 var seo_1 = require("../components/seo");
-var SecondPage = function () { return (React.createElement(layout_1.default, null,
+var HelloWorld = function () { return (React.createElement(layout_1.default, null,
     React.createElement(seo_1.default, { title: "Page two" }),
     React.createElement("h1", null, "Hi from the second page"),
     React.createElement(gl_react_dom_1.Surface, { width: 300, height: 300 },
         React.createElement(HelloBlue, null)),
     React.createElement(gatsby_1.Link, { to: "/" }, "Go back to the homepage"))); };
-exports.default = SecondPage;
+exports.default = HelloWorld;
 var templateObject_1;
 //# sourceMappingURL=page-2.js.map
