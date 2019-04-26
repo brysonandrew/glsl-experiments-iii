@@ -6,15 +6,15 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var gl_react_1 = require("gl-react");
-var shader = require('../components/shaders/ray-march.glsl');
+var shader = require('../components/shaders/sparks.glsl');
 var shader_wrapper_1 = require("../components/shader-wrapper");
 var loop;
 var shaders = gl_react_1.Shaders.create({
-    rayMarch: {
+    sparks: {
         frag: gl_react_1.GLSL(templateObject_1 || (templateObject_1 = __makeTemplateObject(["", ""], ["", ""])), shader)
     }
 });
-function RayMarch() {
+function Sparks() {
     var _a = React.useState(0), tick = _a[0], setTick = _a[1];
     var incTick = function (tick) {
         var nextTick = tick + 0.1;
@@ -27,9 +27,9 @@ function RayMarch() {
         incTick(tick);
         return function () { return cancelAnimationFrame(loop); };
     }, []);
-    return React.createElement(gl_react_1.Node, { shader: shaders.rayMarch, uniforms: { uResolution: [1, 1], uTime: tick } });
+    return React.createElement(gl_react_1.Node, { shader: shaders.sparks, uniforms: { uResolution: [1, 1], uTime: tick } });
 }
-exports.default = (function () { return (React.createElement(shader_wrapper_1.default, { name: "Ray March" },
-    React.createElement(RayMarch, null))); });
+exports.default = (function () { return (React.createElement(shader_wrapper_1.default, { name: "Sparks" },
+    React.createElement(Sparks, null))); });
 var templateObject_1;
-//# sourceMappingURL=ray-march.js.map
+//# sourceMappingURL=sparks.js.map
