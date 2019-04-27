@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Shaders, Node, GLSL } from "gl-react"
 import { Surface } from "gl-react-dom"
-let shader = require('../components/shaders/ray-march.glsl')
+let shader = require('../components/shaders/ray-march-gun.glsl')
 import ShaderWrapper from "../components/shader-wrapper"
 
 let loop;
@@ -12,7 +12,7 @@ const shaders = Shaders.create({
   }
 });
 
-function RayMarch() {
+function RayMarchGun() {
   const [tick, setTick] = React.useState(0);
   const incTick = (tick) => {
     const nextTick = tick + 0.1;
@@ -30,7 +30,7 @@ function RayMarch() {
 }
 
 export default () => (
-  <ShaderWrapper name="Ray March">
-    <RayMarch/>
+  <ShaderWrapper name="Ray March Gun">
+    <RayMarchGun/>
   </ShaderWrapper>
 )

@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e3628b-62a6-4497-9793-31ff7fb89eb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shader-wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shaders/sparks.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sparks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/async-requires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/sync-requires.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/pages/hello-world.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/hello-world.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/pages/hello-world.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/hello-world.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/pages/ray-march.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/ray-march.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/pages/ray-march.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/pages/ray-march.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hello-world.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hello-world.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shaders/ray-march.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shaders/ray-march-gun.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ray-march.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ray-march.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ray-march.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ray-march-gun.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,35 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ray-march.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/ray-march.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shader-wrapper.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shader-wrapper.tsx">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -64,32 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ray-march.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shaders/ray-march.glsl">
+      <file leaf-file-name="ray-march-gun.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/ray-march-gun.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sparks.glsl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/shaders/sparks.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="180" column="29" selection-start-line="180" selection-start-column="29" selection-end-line="180" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sparks.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/sparks.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="535">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ray-march-gun.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/shaders/ray-march-gun.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -113,6 +75,12 @@
       <find>webpack-glsl-loader</find>
       <find>blue</find>
       <find>map_the_world</find>
+      <find>iTime</find>
+      <find>uTime</find>
+      <find>light_position</find>
+      <find>PI</find>
+      <find>sdBox</find>
+      <find>sdRoundBox</find>
     </findStrings>
     <replaceStrings>
       <replace>HelloWorld</replace>
@@ -120,6 +88,7 @@
       <replace>smoothMin</replace>
       <replace>mapTheWorld</replace>
       <replace>uTime</replace>
+      <replace>lightPosition</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -155,13 +124,14 @@
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/shaders/ray-march.glsl" />
-        <option value="$PROJECT_DIR$/src/components/shader-wrapper.tsx" />
         <option value="$PROJECT_DIR$/src/pages/hello-world.tsx" />
         <option value="$PROJECT_DIR$/src/pages/ray-march.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/sparks.tsx" />
+        <option value="$PROJECT_DIR$/src/components/shader-wrapper.tsx" />
         <option value="$PROJECT_DIR$/src/components/shaders/sparks.glsl" />
+        <option value="$PROJECT_DIR$/src/components/shaders/ray-march.glsl" />
+        <option value="$PROJECT_DIR$/src/pages/ray-march-gun.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/index.tsx" />
       </list>
     </option>
   </component>
@@ -190,7 +160,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
     <option name="y" value="55" />
-    <option name="width" value="1282" />
+    <option name="width" value="1624" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -210,17 +180,6 @@
             <path>
               <item name="glsl-experiments-III" type="b2602c69:ProjectViewProjectNode" />
               <item name="glsl-experiments-III" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glsl-experiments-III" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glsl-experiments-III" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glsl-experiments-III" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glsl-experiments-III" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,13 +187,6 @@
               <item name="glsl-experiments-III" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glsl-experiments-III" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glsl-experiments-III" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="glsl-experiments-III" type="b2602c69:ProjectViewProjectNode" />
@@ -273,11 +225,11 @@
       <recent name="$PROJECT_DIR$/src/components/shaders" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src/components/shaders" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,15 +254,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556290486732</updated>
-      <workItem from="1556290489209" duration="12195000" />
+      <workItem from="1556290489209" duration="20915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12195000" />
+    <option name="totallyTimeSpent" value="20915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="55" width="1282" height="810" extended-state="0" />
+    <frame x="55" y="55" width="1624" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -320,7 +272,7 @@
       <window_info id="npm" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19650654" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -564,47 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shader-wrapper.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ray-march.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shaders/ray-march.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/hello-world.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -623,8 +538,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/shaders/sparks.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="180" column="29" selection-start-line="180" selection-start-column="29" selection-end-line="180" selection-end-column="29" />
+        <state relative-caret-position="-2417">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/format.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shaders/ray-march-gun.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shader-wrapper.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ray-march-gun.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
