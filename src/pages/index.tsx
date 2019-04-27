@@ -1,20 +1,32 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import Seo, { default as SEO } from "../components/seo"
+import SEO from "../components/seo"
+import { toPath } from "../utils/format"
+
+const Item = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+`
+
+const ITEMS = [
+  'Hello World',
+  'Ray March Gun',
+  'Sparks'
+];
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    {ITEMS.map((item) => (
+      <Item key={item}>
+        <Link to={`/${toPath(item)}`}>{item}</Link>
+      </Item>
+    ))}
   </Layout>
 )
 

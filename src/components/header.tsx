@@ -8,7 +8,7 @@ export interface IHeaderProps {
 const Header = ({ siteTitle }: IHeaderProps) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#212121`,
       marginBottom: `1.45rem`,
     }}
   >
