@@ -1,17 +1,17 @@
-import {defined} from "./variable-evaluation";
+import { defined } from "./variable-evaluation"
 
 export function removeSpaces(x: string): string {
   if (defined(x)) {
-    return x.replace(/\s/g, '');
+    return x.replace(/\s/g, "")
   } else {
-    return '';
+    return ""
   }
 }
 
 export function toPath(name) {
   return name
-    .replace(/-/g, '')
-    .replace(/\s/g, '-')
-    .replace(/[.,]/g, '')
-    .toLowerCase();
+    .replace(/-/g, "")
+    .replace(/\s/g, "-")
+    .replace(/[.,]/g, "")
+    .toLowerCase()
 }

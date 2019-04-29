@@ -55,7 +55,7 @@ function SEO(_a) {
             : [])
             .concat(meta) }));
 }
-SEO['defaultProps'] = {
+SEO["defaultProps"] = {
     lang: "en",
     meta: [],
     keywords: [],
