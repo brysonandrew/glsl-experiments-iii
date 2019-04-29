@@ -13,16 +13,12 @@ const Item = styled.div`
   color: #000;
 `
 
-const ITEMS = [
-  'Hello World',
-  'Ray March Gun',
-  'Sparks'
-];
+const ITEMS = ["Hello World", "Ray March Gun", "Ray March Sphere", "Sparks"]
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {ITEMS.map((item) => (
+    {ITEMS.map(item => (
       <Item key={item}>
         <Link to={`/${toPath(item)}`}>{item}</Link>
       </Item>

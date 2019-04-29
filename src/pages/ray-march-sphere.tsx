@@ -1,18 +1,18 @@
 import * as React from "react"
 import { Shaders, Node, GLSL } from "gl-react"
 import { Surface } from "gl-react-dom"
-let shader = require("../components/shaders/sparks.glsl")
+let shader = require("../components/shaders/ray-march-sphere.glsl")
 import ShaderWrapper from "../components/shader-wrapper"
 
 let loop
 
 const shaders = Shaders.create({
-  sparks: {
+  rayMarch: {
     frag: GLSL`${shader}`,
   },
 })
 
-function Sparks() {
+function RayMarchGun() {
   const [tick, setTick] = React.useState(0)
   const incTick = tick => {
     const nextTick = tick + 0.1
@@ -28,14 +28,14 @@ function Sparks() {
 
   return (
     <Node
-      shader={shaders.sparks}
+      shader={shaders.rayMarch}
       uniforms={{ uResolution: [1, 1], uTime: tick }}
     />
   )
 }
 
 export default () => (
-  <ShaderWrapper name="Sparks">
-    <Sparks />
+  <ShaderWrapper name="Ray March Sphere">
+    <RayMarchGun />
   </ShaderWrapper>
 )

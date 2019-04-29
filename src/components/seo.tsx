@@ -78,9 +78,9 @@ function SEO({ description, lang, meta, keywords, title }: ISEOProps) {
         .concat(
           keywords.length > 0
             ? {
-              name: `keywords`,
-              content: keywords.join(`, `),
-            }
+                name: `keywords`,
+                content: keywords.join(`, `),
+              }
             : []
         )
         .concat(meta)}
@@ -88,11 +88,11 @@ function SEO({ description, lang, meta, keywords, title }: ISEOProps) {
   )
 }
 
-SEO['defaultProps'] = {
+SEO["defaultProps"] = {
   lang: `en`,
   meta: [],
   keywords: [],
   description: ``,
-};
+}
 
 export default SEO
