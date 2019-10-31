@@ -6,7 +6,7 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var gl_react_1 = require("gl-react");
-var shader = require("../components/shaders/hello-world.glsl");
+var shader = require("../shaders/hello-world.glsl");
 var shaders = gl_react_1.Shaders.create({
     helloBlue: {
         frag: gl_react_1.GLSL(templateObject_1 || (templateObject_1 = __makeTemplateObject(["", ""], ["", ""])), shader),

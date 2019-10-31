@@ -6,7 +6,7 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var gl_react_1 = require("gl-react");
-var shader = require("../components/shaders/ray-march-sphere.glsl");
+var shader = require("../shaders/ray-march-sphere.glsl");
 var shader_wrapper_1 = require("../components/shader-wrapper");
 var loop;
 var shaders = gl_react_1.Shaders.create({

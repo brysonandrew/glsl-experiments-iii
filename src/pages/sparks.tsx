@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Shaders, Node, GLSL } from "gl-react"
 import { Surface } from "gl-react-dom"
-let shader = require("../components/shaders/sparks.glsl")
+let shader = require("../shaders/sparks.glsl")
 import ShaderWrapper from "../components/shader-wrapper"
 
 let loop

@@ -13,7 +13,7 @@ const Item = styled.div`
   color: #000;
 `
 
-const ITEMS = ["Hello World", "Ray March Gun", "Ray March Sphere", "Sparks"]
+const ITEMS = ["Hello World", "Ray March Gun", "Ray March Sphere", "Sparks", "Bleeding Edge"]
 
 const IndexPage = () => (
   <Layout>
