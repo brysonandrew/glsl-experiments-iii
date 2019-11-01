@@ -4,6 +4,7 @@ import { Surface } from "gl-react-dom"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { forwardRef } from "react"
 
 const Container = styled.div`
   display: flex;
@@ -17,15 +18,15 @@ export interface IProps {
   children: JSX.Element
 }
 
-const ShaderWrapper = (props: IProps) => (
+const ShaderWrapper = forwardRef((props: IProps, ref: Surface) => (
   <Layout>
     <SEO title={props.name} />
     <Container>
-      <Surface width={800} height={800}>
+      <Surface ref={ref} width={800} height={800}>
         {props.children}
       </Surface>
     </Container>
   </Layout>
-)
+))
 
 export default ShaderWrapper
